@@ -1,0 +1,71 @@
+export const Cpp=[
+    {
+    question:'What is C++?',
+    options:['C++ is an object oriented programming language','C++ is a procedural programming language','C++ supports both procedural and object oriented programming language','C++ is a functional programming language'],
+    answer:'C++ supports both procedural and object oriented programming language',
+    Choice:'',//leave empty string
+    Level:'1',
+    },    
+    {
+    question:'Which of the following is the correct syntax of including a user defined header files in C++?',
+    options:['#include [userdefined]','#include “userdefined”','#include <userdefined.h>','#include <userdefined>'],
+    answer:'#include “userdefined”',
+    Choice:'',
+    Level:'3',
+    },    
+    {
+    question:'Which of the following is used for comments in C++?',
+    options:['/* comment */','// comment */','// comment','both // comment or /* comment */'],
+    answer:'both // comment or /* comment */',
+    Choice:'',
+    Level:'1',
+    },    
+    {
+    question:'Which of the following is a correct identifier in C++?',
+    options:['VAR_1234','$var_name','7VARNAME','7var_name'],
+    answer:'VAR_1234',
+    Choice:'',
+    Level:'2',
+    },    
+    {
+    question:'Algorithms are used to arrange random data into some order:',
+    options:['Linear','Standard search','Sorting','Binary search'],
+    answer:'Sorting',
+    Choice:'',
+    Level:'2',
+    },    
+    {
+    question:'The statement: int *ptr=nullptr; has the same meaning as',
+    options:['int ptr=nullptr;','*int ptr=nullptr;','int ptr*=nullptr;','int* ptr=nullptr;'],
+    answer:'int* ptr=nullptr;',
+    Choice:'',
+    },    
+    {
+    question:'Which of the following statements is not valid C++ code?',
+    options:['int ptr=&num1;','int ptr=int *num1;','float num1=&ptr2;','all of these are invalid.'],
+    answer:'all of these are invalid.',
+    Choice:'',
+    Level:'3',
+    },    
+    {
+    question:'An array with the declaration int a[4][5] can store ___ numbers',
+    options:[20,9,21,19],
+    answer:20,
+    Choice:'',
+    Level:'1',
+    },    
+    {
+    question:'String stores an extra ___ character for every string to mark the end of the string',
+    options:[' null','\\0','/0','none of the answers'],
+    answer:'\\0',
+    Choice:'',
+    Level:'3',
+    },    
+    {
+    question:' ___ member function of cin allows user to input embedded blanks and linefeed within the string',
+    options:['get','getline','gets','None of the answers'],
+    answer:'getline',
+    Choice:'',
+    Level:'1',
+    },
+]
